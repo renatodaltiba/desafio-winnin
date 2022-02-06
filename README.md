@@ -1,34 +1,89 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  DESÁFIO WINNIN - FRONT-END
+</h1>
 
-## Getting Started
+<p align="center">
+ <a href="#sobre-o-projeto">Sobre o Projeto</a> •
+ <a href="#tecnologias">Tecnologias</a> •
+ <a href="#configurações-necessárias">Configurações necessárias</a> •
+</p>
 
-First, run the development server:
+## Sobre o projeto
+
+O projeto tem como objetivo o teste de abstração de uma aplicação ReactJS.
+
+O sistema tem como objetivo executar uma consulta na API do Reddit e listar esses dados retornados numa lista pré determinada
+
+## Tecnologias
+
+Abaixo as tecnologias utilizadas para construção da aplicação.
+
+- [ReactJS](https://reactjs.org/)
+- [NextJS](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Styled-Components](https://styled-components.com/)
+- [Axios](https://axios-http.com/)
+- [Jest](https://jestjs.io/pt-BR/)
+- [React Testing Library](https://testing-library.com/)
+
+## Configurações necessárias
+
+### **Requisitos Opção Docker**
+
+Necessário realizar as instalações.
+
+- [Node](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/)
+- [Git](https://git-scm.com/)
+- [Docker](https://www.docker.com/)
+- [docker-compose](https://docs.docker.com/compose/)
+
+### **Clonando o projeto**
 
 ```bash
-npm run dev
-# or
-yarn dev
+  # Execute o comando git clone para realizar o clone do repositório
+  $ git clone https://github.com/renatodaltiba/desafio-winnin
+
+  # Entre na pasta do repositório clonado
+  $ cd desafio-winnin
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### **Iniciando o projeto**
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+  # Execute yarn para instalar as dependências
+  $ yarn
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+  # Execute o comando docker-compose up para iniciar um container com uma imagem já preparada para rodar o projeto.
+  $ docker-compose up
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
 
-## Learn More
+## **Requisitos Opção Depêndencias Locais**
 
-To learn more about Next.js, take a look at the following resources:
+Necessário realizar as instalações.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Node](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/)
+- [Git](https://git-scm.com/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### **Clonando o projeto**
 
-## Deploy on Vercel
+```bash
+  # Execute o comando git clone para realizar o clone do repositório
+  $ git clone https://github.com/renatodaltiba/desafio-winnin
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+  # Entre na pasta do repositório clonado
+  $ cd desafio-winnin
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### **Iniciando o projeto**
+
+```bash
+  # Execute yarn para instalar as dependências
+  $ yarn
+
+  # Execute o comando docker-compose up para iniciar um container com uma imagem já preparada para rodar o projeto.
+  $ yarn dev
+
+```
