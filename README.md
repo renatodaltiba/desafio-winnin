@@ -28,7 +28,7 @@ Abaixo as tecnologias utilizadas para construção da aplicação.
 
 ## Configurações necessárias
 
-### **Requisitos Opção Docker**
+## **Requisitos Opção 01 - Docker**
 
 Necessário realizar as instalações.
 
@@ -59,7 +59,7 @@ Necessário realizar as instalações.
 
 ```
 
-## **Requisitos Opção Depêndencias Locais**
+## **Requisitos Opção 02 - Depêndencias Locais**
 
 Necessário realizar as instalações.
 
